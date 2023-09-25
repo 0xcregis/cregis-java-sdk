@@ -58,8 +58,8 @@ CregisClient cregisClient;
  */
 @ApiOperation("检测地址合法性")
 @GetMapping("/address-legal")
-public Result<?> isLegalAddress(String mainCoinType, String address) {
-    return cregisClient.addressLegal(mainCoinType, address);
+public Result<?> isLegalAddress(String chainId, String address) {
+    return cregisClient.addressLegal(chainId, address);
 }
 ```
 
