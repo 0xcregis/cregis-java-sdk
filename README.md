@@ -65,7 +65,6 @@ public Result<?> isLegalAddress(String mainCoinType, String address) {
 
 ## API
 [API](https://github.com/0xcregis/cregis-java-sdk/blob/master/cregis-sdk-core/src/main/java/com/cregis/core/client/CregisClient.java)
-```
 
 ## 测试用例
 [用例参考](https://github.com/0xcregis/cregis-java-sdk/blob/master/cregis-sdk-core/src/test/java/com/cregis/core/HutoolClientTest.java)
