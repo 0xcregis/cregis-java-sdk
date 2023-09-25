@@ -17,10 +17,8 @@
 参数对应项目`API`中的三个参数。
 
 ```java
-CregisClient udunClient = new HutoolCregisClient(url, apiKey, projectId);
-//地址格式校验
-String address1 = "TU5ypgt9vThayzSTWNiKYzwhT7uWDgcsUm";
-Result<Boolean> isLegalAddressResult1 = udunClient.addressLegal("195", address1);
+CregisClient cregisClient = new HutoolCregisClient(url, apiKey, projectId);
+Result<Boolean> isLegalAddressResult1 = cregisClient.addressLegal("195", "TU5ypgt9vThayzSTWNiKYzwhT7uWDgcsUm");
 ```
 
 ### Springboot项目接入
