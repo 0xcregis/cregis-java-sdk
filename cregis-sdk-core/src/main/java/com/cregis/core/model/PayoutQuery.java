@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 /**
  * @author miller
  * @version 1.0.0
- * @date 2023/7/3
+ * @since 2023/7/3
  */
 @NoArgsConstructor
 @Data

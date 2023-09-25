@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * @author miller
  * @version 1.0.0
- * @date 2023/7/3
+ * @since 2023/7/3
  */
 @Data
 public class AddressLegal {

@@ -13,7 +13,7 @@ import java.util.*;
  * 签名工具类
  *
  * @version 1.0
- * @date 2022-11-22 15:14
+ * @since 2022-11-22 15:14
  */
 public class SignUtil {
     static Log log = LogFactory.get();
@@ -22,6 +22,7 @@ public class SignUtil {
      * 加签
      *
      * @param map 参数map
+     * @param apiKey key
      * @return 加签之后的值
      */
     public static String doSign(Map<String, Object> map, String apiKey) {
@@ -40,6 +41,7 @@ public class SignUtil {
      * 验签
      *
      * @param map     参数map
+     * @param apiKey key
      * @param signStr 接收方生成的sign
      * @return boolean
      */

@@ -6,9 +6,7 @@ import java.util.List;
 
 /**
  * @author kangyang
- * @classname ProjectCoins
- * @description 项目币种
- * @date 2023-08-21 11:54
+ * @since 2023-08-21 11:54
  * @version 1.0
  */
 @Data

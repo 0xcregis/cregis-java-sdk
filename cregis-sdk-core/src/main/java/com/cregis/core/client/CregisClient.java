@@ -5,7 +5,7 @@ import com.cregis.core.model.*;
 
 /**
  * @version 1.0.0
- * @date 2022/12/13
+ * @since 2022/12/13
  */
 public interface CregisClient {
     /**
@@ -28,6 +28,7 @@ public interface CregisClient {
 
     /**
      * 获取支持的币种
+     * @return 币种列表
      */
     Result<ProjectCoins> listCoins();
 
@@ -35,7 +36,8 @@ public interface CregisClient {
      * 发送提币申请
      *
      * @param address      提币地址
-     * @param currency 币种信息，规则参考 <a href="https://app.apifox.com/link/project/2923699/apis/doc-2804947"/>
+     * @param currency 币种信息
+     *                 规则参考 <a href="https://app.apifox.com/link/project/2923699/apis/doc-2804947">https://app.apifox.com/link/project/2923699/apis/doc-2804947</a>
      * @param amount       金额
      * @param thirdPartyId 业务编号
      * @param callbackUrl  回调地址

@@ -3,7 +3,7 @@ package com.cregis.core.constant;
 /**
  * @author miller
  * @version 1.0.0
- * @date 2022/12/13
+ * @since 2022/12/13
  */
 public class ApiPaths {
     public static final String URL_PREFIX = "/api/v1";

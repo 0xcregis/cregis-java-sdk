@@ -19,7 +19,7 @@ import java.util.Map;
  * hutool版UdunClient
  *
  * @version 1.0.0
- * @date 2022/12/13
+ * @since 2022/12/13
  */
 public class HutoolCregisClient implements CregisClient {
     Log log = LogFactory.get();
@@ -87,6 +87,10 @@ public class HutoolCregisClient implements CregisClient {
         }, true);
     }
 
+    /**
+     * 列出支持币种
+     * @return 币种列表
+     */
     @Override
     public Result<ProjectCoins> listCoins() {
         Map<String, Object> paramsMap = MapUtil.<String, Object>builder().put("pid", pid).build();

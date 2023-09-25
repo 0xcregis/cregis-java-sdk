@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 /**
  * @author miller
  * @version 1.0.0
- * @date 2022/12/15
+ * @since 2022/12/15
  */
 @EnableConfigurationProperties(CregisProps.class)
 public class CregisConfig {

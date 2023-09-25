@@ -6,7 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * @author miller
  * @version 1.0.0
- * @date 2022/12/15
+ * @since 2022/12/15
  */
 @ConfigurationProperties(prefix = "cregis.sdk")
 @Data

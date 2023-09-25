@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * @version 1.0.0
- * @date 2022/12/13
+ * @since 2022/12/13
  */
 @Data
 public class Result<T> {

@@ -1,6 +1,6 @@
-## 接入方式
+# 接入方式
 
-### 普通Java项目接入
+## 普通Java项目
 
 1）安装
 
@@ -21,7 +21,7 @@ CregisClient cregisClient = new HutoolCregisClient(url, apiKey, projectId);
 Result<Boolean> result = cregisClient.addressLegal("195", "TU5ypgt9vThayzSTWNiKYzwhT7uWDgcsUm");
 ```
 
-### Springboot项目接入
+## Springboot项目
 
 1）安装
 
@@ -63,8 +63,11 @@ public Result<?> isLegalAddress(String mainCoinType, String address) {
 }
 ```
 
-## API
+# API
 [API](https://github.com/0xcregis/cregis-java-sdk/blob/master/cregis-sdk-core/src/main/java/com/cregis/core/client/CregisClient.java)
 
-## 测试用例
+# 测试用例
 [用例参考](https://github.com/0xcregis/cregis-java-sdk/blob/master/cregis-sdk-core/src/test/java/com/cregis/core/HutoolClientTest.java)
+
+# 示例
+[springboot示例](https://github.com/0xcregis/udun-sdk-java-demo)
