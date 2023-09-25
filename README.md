@@ -21,7 +21,7 @@ CregisClient cregisClient = new HutoolCregisClient(url, apiKey, projectId);
 Result<Boolean> result = cregisClient.addressLegal("195", "TU5ypgt9vThayzSTWNiKYzwhT7uWDgcsUm");
 ```
 
-## Springboot项目
+## SpringBoot项目
 
 1）安装
 
@@ -70,4 +70,4 @@ public Result<?> isLegalAddress(String chainId, String address) {
 [用例参考](https://github.com/0xcregis/cregis-java-sdk/blob/master/cregis-sdk-core/src/test/java/com/cregis/core/HutoolClientTest.java)
 
 # 示例
-[springboot示例](https://github.com/0xcregis/cregis-java-sdk-demo)
+[SpringBoot示例](https://github.com/0xcregis/cregis-java-sdk-demo)
