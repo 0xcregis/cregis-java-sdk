@@ -40,7 +40,7 @@ Result<Boolean> result = cregisClient.addressLegal("195", "TU5ypgt9vThayzSTWNiKY
 ```yaml
 cregis:
   sdk:
-    url: http://a0c1369e-12ec-467f-9989-7aba384a25e3.apple806.cc:81
+    url: http://xxx.com
     apiKey: f502a9ac9ca54327986f29c03b271491
     pid: 1382528827416576
 ```
@@ -120,4 +120,4 @@ public Result<?> isLegalAddress(String mainCoinType, String address) {
 ```
 
 ## 测试用例
-[https://github.com/0xcregis/cregis-java-sdk/blob/master/cregis-sdk-core/src/test/java/com/cregis/core/HutoolClientTest.java](https://github.com/0xcregis/cregis-java-sdk/blob/master/cregis-sdk-core/src/test/java/com/cregis/core/HutoolClientTest.java)
+[用例参考](https://github.com/0xcregis/cregis-java-sdk/blob/master/cregis-sdk-core/src/test/java/com/cregis/core/HutoolClientTest.java)

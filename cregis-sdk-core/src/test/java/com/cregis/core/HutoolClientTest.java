@@ -19,7 +19,7 @@ public class HutoolClientTest {
 
     @BeforeEach
     void init() {
-        String url = "http://mssaamcx.apple806.cc:81";
+        String url = "http://xxx.com";
         String apiKey = "fe37337a19e847e9b02ed064ef2afe96";
         Long projectId = 1387710834180096L;
         cregisClient = new HutoolCregisClient(url, apiKey, projectId);
