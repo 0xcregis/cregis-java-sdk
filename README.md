@@ -121,3 +121,5 @@ public Result<?> isLegalAddress(String mainCoinType, String address) {
     Result<ProjectAddress> addressCreate(String mainCoinType, String callbackUrl, String alias);
 ```
 
+## 测试用例
+[https://github.com/0xcregis/cregis-java-sdk/blob/master/cregis-sdk-core/src/test/java/com/cregis/core/HutoolClientTest.java](https://github.com/0xcregis/cregis-java-sdk/blob/master/cregis-sdk-core/src/test/java/com/cregis/core/HutoolClientTest.java)
