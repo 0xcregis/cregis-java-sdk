@@ -70,4 +70,4 @@ public Result<?> isLegalAddress(String mainCoinType, String address) {
 [用例参考](https://github.com/0xcregis/cregis-java-sdk/blob/master/cregis-sdk-core/src/test/java/com/cregis/core/HutoolClientTest.java)
 
 # 示例
-[springboot示例](https://github.com/0xcregis/udun-sdk-java-demo)
+[springboot示例](https://github.com/0xcregis/cregis-java-sdk-demo)
