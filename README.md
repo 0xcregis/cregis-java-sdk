@@ -18,7 +18,7 @@
 
 ```java
 CregisClient cregisClient = new HutoolCregisClient(url, apiKey, projectId);
-Result<Boolean> isLegalAddressResult1 = cregisClient.addressLegal("195", "TU5ypgt9vThayzSTWNiKYzwhT7uWDgcsUm");
+Result<Boolean> result = cregisClient.addressLegal("195", "TU5ypgt9vThayzSTWNiKYzwhT7uWDgcsUm");
 ```
 
 ### Springboot项目接入
