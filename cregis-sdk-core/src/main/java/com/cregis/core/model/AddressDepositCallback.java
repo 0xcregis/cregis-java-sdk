@@ -42,6 +42,10 @@ public class AddressDepositCallback {
      */
     private Integer status;
     /**
+     * memo
+     */
+    private Integer memo;
+    /**
      * 交易哈希
      */
     private String txid;
